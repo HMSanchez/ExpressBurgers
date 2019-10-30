@@ -1,0 +1,101 @@
+{
+    "dessertsList": [
+        {
+            "dessertName": "Cheesecake",
+            "imageurl": "cheesecake.jpeg",
+            "description": " Cheesecake is usually sweetened with sugar and may be flavored or topped with fruit, whipped cream, nuts, cookies, fruit sauce, or chocolate syrup.",
+            "options": {
+                "status": [
+                    "Baked",
+                    "Non-Baked"
+                ],
+                "flavor": [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Layered Mocha",
+                    "Peanut Butter Cup"
+                ],
+                "style": [
+                    "New York",
+                    "Jewish",
+                    "Regular",
+                    "Chicago"
+                ]
+            }
+        },
+        {
+            "dessertName": "Cake",
+            "imageurl": "cakeslice.jpg",
+            
+            "description": "Good old fashioned slice of cake",
+            "options": {
+                "flavor": [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Carrot",
+                    "Ice Cream",
+                    "Coffee"
+                ]
+            }
+        },
+        {
+            "dessertName": "Ice Cream",
+            "imageurl": "icecream.jpg",
+            
+            "description": "Serving all of your favorite flavors",
+            "options": {
+                "flavor": [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Coffee",
+                    "Peanut Butter Cup",
+                    "Pistachio"
+                ]
+            },
+            "serving-style": [
+                "Cone",
+                "Waffle Cone",
+                "Bowl"
+            ],
+            "toppings": [
+                "Sprinkles",
+                "Cookies",
+                "Gummies",
+                "Syrup"
+            ]
+        },
+        {
+            "dessertName": "Fresh Baked Pie",
+            "imageurl": "cherrypie.jpg",
+            
+            "description": "Freshly baked pie created to cure your cravings",
+            "options": {
+                "flavor": [
+                    "Apple",
+                    "Blueberry",
+                    "Banana Cream",
+                    "Pecan",
+                    "Cherry",
+                    "Lemon"
+                ]
+            }
+        },
+        {
+            "dessertName": "Brownie",
+            "imageurl": "brownie.jpg",
+            
+            "description": "Fresh baked brownie with a variety of styles",
+            "options": {
+                "style": [
+                    "Hot Fudge",
+                    "Hot Fudge w/ Nuts",
+                    "Hot Fudge w/ Ice Cream",
+                    "Cookie Brownie"
+                ]
+            }
+        }
+    ]
+}

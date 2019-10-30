@@ -1,0 +1,10 @@
+extends layout
+
+block header
+  //- img(src="restaurant.jpg" id="restaurantPicture")
+  
+  block content
+  h2 Location
+  div(id="map")
+  script(async, defer, src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrDTjNPiQsIdixdOHRDU72xjJer_JROQQ&callback=initMap")
+  script(src="/script.js")

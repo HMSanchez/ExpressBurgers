@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    link(href='style.css' rel='stylesheet')
+    
+    title #{title}
+  header
+    nav
+      ul
+        li
+          span() Home 
+          //- onClick=goHome()
+        li
+          span() About Us 
+          //- onClick=goAbout()
+        li
+          select(id="burgerSelect")
+            option Select a Burger
+            //- each item in sides.sidesList
+            //-   option #{item.sideName}
+        li
+          select(id="sideSelect")
+            option Select a Side
+            each item in sides.sidesList
+              option #{item.sideName}
+        li
+          select(id="dessertSelect")
+            option Select a Dessert
+             each item in desserts.dessertsList
+               option #{item.dessertName}
+        li
+              button(id="myButton" onClick="btnClick()" value="Location") Location
+          
+          
+  
+  body 
+    block header
+    block content
+  script(src="script.js")
+  footer

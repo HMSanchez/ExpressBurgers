@@ -1,0 +1,10 @@
+ extends layout
+block header
+
+
+block content
+            div(id="container")
+             each item in desserts.dessertsList
+               option #{item.dessertName}
+               div(id="ImageContainer" )
+                 img(src=item.imageurl class="dessertImages")

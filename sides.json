@@ -1,0 +1,96 @@
+{
+  "sidesList" : [
+    {
+      "sideName" : "Fries",
+      "desc" : "The most basic of basic sides, the go-to option whether it just a small date or a large company get together. Grab a plate of fries.",
+      "options": {
+        "salt" : [
+          "None",
+          "Light",
+          "Regular",
+          "High Blood Pressure"
+        ],
+        "orientation" : [
+          "Curly",
+          "Straight",
+          "Crinkle",
+          "Waffle"
+        ],
+        "thiccness" : [
+          "Shoestring",
+          "French",
+          "Steak"
+        ],
+        "special" : [
+          "Rally's Seasoning",
+          "Chili Cheese",
+          "Animal",
+          "Bacon Cheese"
+        ]
+      }
+    },
+    {
+      "sideName" : "Fruit Cup",
+      "fruits" : [
+        "Grapes",
+        "Pineapples",
+        "Pears",
+        "Cantoloupes",
+        "Strawberries",
+        "Mandarin Oranges",
+        "Peach"
+      ]
+    },
+    {
+      "sideName" : "Salad",
+      "meat" : [
+        "Shrimp",
+        "Chicken"
+      ],
+      "toppings" : [
+        "Crutons",
+        "Tomatoes",
+        "Cheese",
+        "Cucumbers",
+        "Eggs"
+      ],
+      "dressing" : [
+        "Ranch",
+        "Italian",
+        "French",
+        "Thousand Island",
+        "Catalina"
+      ]
+    },
+    {
+      "sideName" : "Potatoes",
+      "types" : {
+        "mashed" : {
+          "type" : [
+            "Sour Cream and Chives",
+            "Garlic",
+            "Cheesey"
+          ]
+        },
+        "baked" : {
+          "toppings" : [
+            "Cheese",
+            "Bacon",
+            "Chives",
+            "Pork",
+            "Sour Cream"
+          ]
+        }
+      }
+    },
+    {
+      "sideName" : "Corn",
+      "style" : [
+        "Steamed",
+        "Cob",
+        "Popped",
+        "Buttered"
+      ]
+    }
+  ]
+}
